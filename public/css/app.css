@@ -1,0 +1,87 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+/* RESET */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBALS */
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: #efefef;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+
+/* FORMULARIO */
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form {
+    background-color: #fff;
+    max-width: 53rem;
+    min-height: 80rem;
+    padding: 3.9rem 3.9rem;
+    margin-top: 5rem;
+}
+.form__img {
+    display: flex;
+    justify-content: center;
+}
+.form__title {
+    color: #707070;
+    font-size: 2.9em;
+    border-bottom: solid 3px #004C97;
+    padding: .6em 0;
+}
+.form__paragraph {
+    color: #707070;
+    font-size: 1.5em;
+    margin: 2rem 0;
+}
+.form__paragraph--bold {
+    color: #707070;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.form__captcha {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    border-top: solid 1px #EFEFEF;
+    border-bottom: solid 1px #EFEFEF;
+}
+.input__email {
+    width: 100%;
+    border: solid 1px #007DB7FC;
+    padding: 1rem 1.5rem;
+}
+.input__email::placeholder {
+    color: #707070BF;
+}
+.button__confirm {
+    background-color: #007DB7FC;
+    color: #fff;
+    width: 100%;
+    padding: 1.3rem 3rem;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: solid 1px #007DB7FC;
+}

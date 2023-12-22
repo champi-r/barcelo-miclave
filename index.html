@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/app.css">
+    <title>Reseteo de Claves</title>
+</head>
+<body>
+    <main class="container">
+        <form class="form">
+            <picture class="form__img">
+                <img src="./public/img/logobarcelo.jpg" width="230px" alt="Logo Fundación Barceló">
+            </picture>
+            <h1 class="form__title">¿Olvidaste tu contraseña?</h1>
+            <p class="form__paragraph">Ingresá tu dirección de email exactamente como está registrada en Barceló, te llegará un email en unos minutos con un link para cambiar tu contraseña</p>
+            <input class="input__email" type="email" name="correo" id="correo" placeholder="Email">
+            <p class="form__paragraph">Si no sabés la dirección de emailque registraste en Barceló, perdiste acceso a esa cuenta o nunca registraste tu email en Barceló, ingresá <a href="https://www.barcelo.edu.ar/centro-de-atencion-barcelo">aquí</a> para solucionarlo.</p>
+            <p class="form__paragraph--bold">Recordá que tu contraseña Barceló es personal e intransfereible.</p>
+            <p class="form__paragraph">Tené en cuenta que, si sos alumno, esta misma contraseña la utilizarás para SIGEDU, el acceso wifi en la sede Las Heras, el campus virtual y las aplicaciones Discovery de la biblioteca</p>
+            
+            <div class="form__captcha">
+                <div class="g-recaptcha" data-sitekey="6LfREp4UAAAAAFaYte8VItZvFiU3aRqWPQkdhXVY" data-callback="recaptcha_callback"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-3ykm1ogpsyx4" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfREp4UAAAAAFaYte8VItZvFiU3aRqWPQkdhXVY&amp;co=aHR0cHM6Ly9taWNsYXZlLmJhcmNlbG8uZWR1LmFyOjQ0Mw..&amp;hl=es&amp;v=u-xcq3POCWFlCr3x8_IPxgPu&amp;size=normal&amp;cb=plgj5ztz7q8z"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+            </div>
+
+            <button class="button__confirm" type="submit">Recuperar contraseña</button>
+        </form>
+
+    </main>
+</body>
+</html>
